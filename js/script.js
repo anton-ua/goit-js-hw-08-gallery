@@ -6,8 +6,7 @@ const links = {
   lightboxImage: document.querySelector(".lightbox__image"),
   closeLightbox: document.querySelector(
     ".lightbox__button[data-action=close-lightbox]"
-  ),
-  lightboxOverlay: document.querySelector(".lightbox__overlay")
+  )
 };
 
 createGallery(images);
